@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:refeicao/myHomePage.dart';
-
-
+import 'package:refeicao/screens/categories_screen.dart';
+ 
  
 void main() => runApp(MyApp());
  
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: CategoryScreen(),
     );
   }
 }
